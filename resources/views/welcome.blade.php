@@ -518,7 +518,7 @@
                     <p>Thông tin chi tiết về các sản phẩm công nghệ</p>
                 </div>
                 <div id="content">
-                    <div class="full-screen-bg-tech">
+                    <div class="">
                         <div class="content-overlay">
                             <h1>Chi tiết công nghệ</h1>
                             <p>Đây là phần nội dung chi tiết khi hover vào panel thiết kế Công nghệ.</p>
@@ -535,7 +535,7 @@
                     <p>Thông tin chi tiết về thiết kế xây dựng</p>
                 </div>
                 <div id="content">
-                    <div class="full-screen-bg">
+                    <div class="">
                         <div class="content-overlay">
                             <h1>Chi Tiết Xây dựng</h1>
                             <p>Đây là phần nội dung chi tiết khi hover vào panel thiết kế xây dựng.</p>

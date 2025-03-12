@@ -19,6 +19,11 @@ Route::get('/about', function () {
     return view('archite/about');
 });
 
+Route::get('/blog', function () {
+    $articles = DB::select("SELECT * FROM articles");
+    return view('archite/blog', compact('articles'));
+});
+
 Route::get('/blogDetails', function () {
     return view('archite/blogDetails');
 });

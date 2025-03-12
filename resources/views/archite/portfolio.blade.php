@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<!-- Mirrored from thememarch.com/demo/html/archite/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:56 GMT -->
+<!-- Mirrored from thememarch.com/demo/html/archite/portfolio by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:56 GMT -->
 
 <head>
     <meta charset="UTF-8">
@@ -244,7 +244,7 @@
                                         <div class="project-img-ontainer">
                                             <img class="home-one-portfolio-first-img"
                                                 src="{{ asset('archite/img/projectsOne.jpg') }}" alt="project image">
-                                            <a href="portfolioDetails.html" class="btn text-uppercase project-btn">
+                                            <a href="portfolioDetails" class="btn text-uppercase project-btn">
                                                 <span class="position-relative z-1">View Project</span>
                                                 <i class="fa-solid fa-arrow-right-long ms-2"></i>
                                             </a>
@@ -265,7 +265,7 @@
                                             <img class="home-one-portfolio-fourth-img"
                                                 src="{{ asset('archite/img/projectsFour.jpg') }}"
                                                 alt="project image">
-                                            <a href="portfolioDetails.html" class="btn text-uppercase project-btn">
+                                            <a href="portfolioDetails" class="btn text-uppercase project-btn">
                                                 <span class="position-relative z-1">View Project</span>
                                                 <i class="fa-solid fa-arrow-right-long ms-2"></i>
                                             </a>
@@ -286,7 +286,7 @@
                                             <img class="home-one-portfolio-fifth-img"
                                                 src="{{ asset('archite/img/homeThreeProjectOne.jpg') }}"
                                                 alt="project image">
-                                            <a href="portfolioDetails.html" class="btn text-uppercase project-btn">
+                                            <a href="portfolioDetails" class="btn text-uppercase project-btn">
                                                 <span class="position-relative z-1">View Project</span>
                                                 <i class="fa-solid fa-arrow-right-long ms-2"></i>
                                             </a>
@@ -310,7 +310,7 @@
                                                 <img class="home-one-portfolio-second-img"
                                                     src="{{ asset('archite/img/projectsTwo.jpg') }}"
                                                     alt="project image">
-                                                <a href="portfolioDetails.html"
+                                                <a href="portfolioDetails"
                                                     class="btn text-uppercase project-btn">
                                                     <span class="position-relative z-1">View Project</span>
                                                     <i class="fa-solid fa-arrow-right-long ms-2"></i>
@@ -332,7 +332,7 @@
                                                 <img class="home-one-portfolio-third-img"
                                                     src="{{ asset('archite/img/projectsThree.jpg') }}"
                                                     alt="project image">
-                                                <a href="portfolioDetails.html"
+                                                <a href="portfolioDetails"
                                                     class="btn text-uppercase project-btn">
                                                     <span class="position-relative z-1">View Project</span>
                                                     <i class="fa-solid fa-arrow-right-long ms-2"></i>
@@ -355,7 +355,7 @@
                                                 <img class="home-one-portfolio-sixth-img"
                                                     src="{{ asset('archite/img/projectsSix.jpg') }}"
                                                     alt="project image">
-                                                <a href="portfolioDetails.html"
+                                                <a href="portfolioDetails"
                                                     class="btn text-uppercase project-btn">
                                                     <span class="position-relative z-1">View Project</span>
                                                     <i class="fa-solid fa-arrow-right-long ms-2"></i>
@@ -371,7 +371,7 @@
                         </div>
                         <div class="portfolio-cta-btn text-center">
                             <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500"
-                                data-aos-offset="100" href="portfolio.html" class="btn brand-btn text-uppercase">
+                                data-aos-offset="100" href="portfolio" class="btn brand-btn text-uppercase">
                                 <span class="z-1 position-relative">View
                                     Projects</span>
                             </a>
@@ -393,7 +393,7 @@
                             </p>
                             <h2 class="h2 fw-700 line-height-3 text-white text-center">Let's Create Your Dream Space
                                 Together!</h2>
-                            <a href="contact.html" class="btn brand-btn text-uppercase mt-50 border-0"><span
+                            <a href="contact" class="btn brand-btn text-uppercase mt-50 border-0"><span
                                     class="z-1 position-relative">let's build</span></a>
                         </div>
                     </div>
@@ -505,6 +505,6 @@
 </body>
 
 
-<!-- Mirrored from thememarch.com/demo/html/archite/portfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:57 GMT -->
+<!-- Mirrored from thememarch.com/demo/html/archite/portfolio by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:57 GMT -->
 
 </html>

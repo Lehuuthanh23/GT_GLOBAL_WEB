@@ -18,12 +18,19 @@
 }
 
 .left-panel {
+    background-size: cover;
+    display: flex;
     background-color: transparent;
+    background-image: url('https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474081HDN/hinh-nen-cong-nghe-3d-tuyet-dep_011901928.jpg');
     /* color: white; */
 }
 
 .right-panel {
+    background-size: cover;
+    display: flex;
     background-color: transparent;
+    background-image: url('https://gtglobal.com.vn/wp-content/uploads/2023/02/thiet-ke-can-ho-chung-cu-Khang-Dien-h1.jpg');
+    /* background-image: url('https://media.istockphoto.com/id/1212064060/vi/anh/l%C6%B0%E1%BB%9Bi-lu%E1%BB%93ng-d%E1%BB%AF-li%E1%BB%87u-abs-hologram.jpg?s=612x612&w=0&k=20&c=2IRs6J1TRCQUMzxuPfRK-lyuFKwSKswC8F-Bid526iw='); */
     /* color: white; */
 }
 

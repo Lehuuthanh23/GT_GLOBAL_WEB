@@ -20,9 +20,18 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('test', function () {
-    $articles = DB::select("SELECT * FROM exports");
+    $articles = DB::select("SELECT * FROM articles");
+
+    // Giải mã JSON trong từng article
+    foreach ($articles as &$article) {
+        if (!empty($article->image_url)) {
+            $article->image_url = json_decode($article->image_url, true);
+        }
+    }
+
     return response()->json($articles);
 });
+
 Route::get('test1', function () {
     return"HFGFGFGFG";
 });

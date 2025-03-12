@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from thememarch.com/demo/html/archite/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:57 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,6 +38,9 @@
     <link rel="stylesheet" href="{{ asset('archite/css/style.css') }}">
     <!-- Responsive stylesheet -->
     <link rel="stylesheet" href="{{ asset('archite/css/responsive.css') }}">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
 </head>
 
 <body>
@@ -92,13 +96,13 @@
                                     </li>
 
                                     <li>
-                                        <a class="submenu-link text-uppercase fw-500"
-                                            href="portfolioDetails">Portfolio Details</a>
+                                        <a class="submenu-link text-uppercase fw-500" href="portfolioDetails">Portfolio
+                                            Details</a>
                                     </li>
 
                                     <li>
-                                        <a class="submenu-link text-uppercase fw-500"
-                                            href="servicesDetails">Services Details</a>
+                                        <a class="submenu-link text-uppercase fw-500" href="servicesDetails">Services
+                                            Details</a>
                                     </li>
                                     <li>
                                         <a class="submenu-link text-uppercase fw-500" href="team">Team</a>
@@ -112,7 +116,8 @@
                         </ul>
                         <div class="desktop-menu-offcanvas position-relative">
                             <img class="off-canvas-icon" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                                aria-controls="offcanvasRight" src="{{ asset('archite/img/menuToggleIvonTwo.png') }}" alt="menu toggle icon">
+                                aria-controls="offcanvasRight" src="{{ asset('archite/img/menuToggleIvonTwo.png') }}"
+                                alt="menu toggle icon">
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                                 aria-labelledby="offcanvasRightLabel">
                                 <div class="offcanvas-header">
@@ -131,10 +136,10 @@
                                             <ul class="submenuItems">
                                                 <li><a class="submenu-link text-uppercase fw-500" href="index-2">Home
                                                         1</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="index2">Home 2</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="index3">Home 3</a></li>
+                                                <li><a class="submenu-link text-uppercase fw-500" href="index2">Home
+                                                        2</a></li>
+                                                <li><a class="submenu-link text-uppercase fw-500" href="index3">Home
+                                                        3</a></li>
                                             </ul>
                                         </li>
                                         <li>
@@ -225,120 +230,97 @@
                         <div class="blogs-archieve-wrapper">
                             <div class="row">
                                 <div class="col-12 col-lg-8 pr-80 blog-archieve-body">
-                                    <div class="blogs-archieve-card mb-70">
-                                        <div class="hover-img-container">
-                                            <img src="{{ asset('archite/img/blogFeaturedOne.jpg') }}" class="img-fluid img-no-hover-effect"
-                                                alt="blog image">
-                                        </div>
-                                        <p class="p body-text fw-500 line-height-5 pt-35">
-                                            14 Mar, 2023
-                                        </p>
-                                        <h5 class="mt-10">
-                                            <a class="blog-archieve-card-title dark-text fw-700 line-height-3" href="blogDetails">
-                                                From Concept to Reality, The Journey of a Successful Concept Interior
-                                                Design.
+                                    @foreach ($articles as $item)
+                                        <div class="blogs-archieve-card mb-70">
+                                            <style>
+                                                /* Thay đổi màu nền và icon của nút prev/next */
+                                                .swiper-button-next,
+                                                .swiper-button-prev {
+                                                    color: white;
+                                                    /* Màu biểu tượng mũi tên */
+                                                    background-color: rgba(0, 0, 0, 0.5);
+                                                    /* Màu nền trong suốt */
+                                                    padding: 15px;
+                                                    border-radius: 50%;
+                                                    /* Làm nút tròn */
+                                                    width: 30px;
+                                                    height: 30px;
+                                                }
+
+                                                /* Nếu muốn thay đổi icon thành mũi tên tùy chỉnh */
+                                                .swiper-button-next::after,
+                                                .swiper-button-prev::after {
+                                                    font-size: 20px;
+                                                    /* Tăng kích thước icon */
+                                                    font-weight: bold;
+                                                }
+
+                                                /* Đổi màu các chấm tròn */
+                                                .swiper-pagination-bullet {
+                                                    background-color: white;
+                                                    /* Màu chấm tròn mặc định */
+                                                    width: 6px;
+                                                    /* Tăng kích thước */
+                                                    height: 6px;
+                                                    opacity: 0.5;
+                                                    /* Làm mờ chấm không active */
+                                                    transition: background-color 0.3s, opacity 0.3s;
+                                                    /* Hiệu ứng mượt */
+                                                }
+
+                                                /* Chấm tròn đang active (trang hiện tại) */
+                                                .swiper-pagination-bullet-active {
+                                                    background-color: rgb(246, 138, 10,1) !important;
+                                                    /* Đổi màu cho chấm tròn active */
+                                                    opacity: 1;
+                                                    /* Làm sáng chấm active */
+                                                    transform: scale(1.2);
+                                                    /* Phóng to chấm active */
+                                                }
+
+                                                /* Thay đổi vị trí các chấm tròn (mặc định ở giữa dưới slider) */
+                                                .swiper-pagination {
+                                                    bottom: 10px !important;
+                                                    /* Điều chỉnh khoảng cách so với slider */
+                                                }
+                                            </style>
+                                            <div class="swiper mySwiper">
+                                                <div class="swiper-wrapper">
+                                                    @foreach (json_decode($item->image_url, true) as $image)
+                                                        <div class="swiper-slide">
+                                                            <div class="hover-img-container">
+                                                                <img src="{{ $image }}"
+                                                                    class="img-fluid img-no-hover-effect"
+                                                                    alt="blog image">
+                                                            </div>
+                                                        </div>
+                                                    @endforeach
+                                                </div>
+
+                                                <div class="swiper-button-next"></div>
+                                                <div class="swiper-button-prev"></div>
+
+                                                <div class="swiper-pagination"></div>
+                                            </div>
+
+                                            <p class="p body-text fw-500 line-height-5 pt-35">
+                                                {{ $item->published_at }}
+                                            </p>
+                                            <h5 class="mt-10">
+                                                <a class="blog-archieve-card-title dark-text fw-700 line-height-3"
+                                                    href="blogDetails">
+                                                    {{ $item->title }}
+                                                </a>
+                                            </h5>
+                                            {!! $item->perex !!}
+                                            <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
+                                                href="blogDetails">
+                                                <span class="mr-10">read more</span>
+                                                <span><i class="fa-solid fa-arrow-right"></i></span>
                                             </a>
-                                        </h5>
-                                        <p class="p body-text fw-500 line-height-5 pt-15">
-                                            If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                            isn't
-                                            anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                            generators
-                                            on the Internet tend to repeat predefined chunks. If you are going to use a
-                                            passage
-                                            of Lorem Ipsum.
-                                        </p>
-                                        <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
-                                            href="blogDetails">
-                                            <span class="mr-10">read more</span>
-                                            <span><i class="fa-solid fa-arrow-right"></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="blogs-archieve-card mb-70">
-                                        <div class="hover-img-container">
-                                            <img src="{{ asset('archite/img/blogFeaturedTwo.jpg') }}" class="img-fluid img-no-hover-effect"
-                                                alt="blog image">
                                         </div>
-                                        <p class="p body-text fw-500 line-height-5 pt-35">
-                                            05 Mar, 2023
-                                        </p>
-                                        <h5 class="mt-10">
-                                            <a class="blog-archieve-card-title dark-text fw-700 line-height-3" href="blogDetails">
-                                                A Look into the Design Process of an Architecture and Interior Design Agency
-                                            </a>
-                                        </h5>
-                                        <p class="p body-text fw-500 line-height-5 pt-15">
-                                            If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                            isn't
-                                            anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                            generators
-                                            on the Internet tend to repeat predefined chunks. If you are going to use a
-                                            passage
-                                            of Lorem Ipsum.
-                                        </p>
-                                        <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
-                                            href="blogDetails">
-                                            <span class="mr-10">read more</span>
-                                            <span><i class="fa-solid fa-arrow-right"></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="blogs-archieve-card mb-70">
-                                        <div class="hover-img-container">
-                                            <img src="{{ asset('archite/img/blogFeaturedThree.jpg') }}" class="img-fluid img-no-hover-effect"
-                                                alt="blog image">
-                                        </div>
-                                        <p class="p body-text fw-500 line-height-5 pt-35">
-                                            02 Feb, 2023
-                                        </p>
-                                        <h5 class="mt-10">
-                                            <a class="blog-archieve-card-title dark-text fw-700 line-height-3" href="blogDetails">
-                                                Creating Your Dream Home: The Importance of Hiring an Interior Design Agency
-                                            </a>
-                                        </h5>
-                                        <p class="p body-text fw-500 line-height-5 pt-15">
-                                            If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                            isn't
-                                            anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                            generators
-                                            on the Internet tend to repeat predefined chunks. If you are going to use a
-                                            passage
-                                            of Lorem Ipsum.
-                                        </p>
-                                        <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
-                                            href="blogDetails">
-                                            <span class="mr-10">read more</span>
-                                            <span><i class="fa-solid fa-arrow-right"></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="blogs-archieve-card">
-                                        <div class="hover-img-container">
-                                            <img src="{{ asset('archite/img/blogFeaturedFour.jpg') }}" class="img-fluid img-no-hover-effect"
-                                                alt="blog image">
-                                        </div>
-                                        <p class="p body-text fw-500 line-height-5 pt-35">
-                                            14 Mar, 2023
-                                        </p>
-                                        <h5 class="mt-10">
-                                            <a class="blog-archieve-card-title dark-text fw-700 line-height-3" href="blogDetails">
-                                                Transforming Spaces: How Architecture and Interior Design Can Change Your
-                                            Life
-                                            </a>
-                                        </h5>
-                                        <p class="p body-text fw-500 line-height-5 pt-15">
-                                            If you are going to use a passage of Lorem Ipsum, you need to be sure there
-                                            isn't
-                                            anything embarrassing hidden in the middle of text. All the Lorem Ipsum
-                                            generators
-                                            on the Internet tend to repeat predefined chunks. If you are going to use a
-                                            passage
-                                            of Lorem Ipsum.
-                                        </p>
-                                        <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
-                                            href="blogDetails">
-                                            <span class="mr-10">read more</span>
-                                            <span><i class="fa-solid fa-arrow-right"></i></span>
-                                        </a>
-                                    </div>
+                                    @endforeach
+
                                     <div class="portfolio-cta-btn text-start">
                                         <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500"
                                             data-aos-offset="100" href="portfolio.html"
@@ -353,13 +335,14 @@
                                         <input type="text" class="form-control blog-sidebar-search-input"
                                             placeholder="Search" aria-label="Recipient's username"
                                             aria-describedby="button-addon2">
-                                        <button class="btn btn-outline-secondary blog-sidebar-search-icon" type="button"
-                                            id="button-addon2"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                        <button class="btn btn-outline-secondary blog-sidebar-search-icon"
+                                            type="button" id="button-addon2"><i
+                                                class="fa-solid fa-magnifying-glass"></i></button>
                                     </div>
                                     <div
                                         class="author-details d-flex justify-content-center align-items-center flex-column mb-50">
-                                        <img class="img-fluid rounded-circle text-center" src="{{ asset('archite/img/authorOne.jpg') }}"
-                                            alt="author image">
+                                        <img class="img-fluid rounded-circle text-center"
+                                            src="{{ asset('archite/img/authorOne.jpg') }}" alt="author image">
                                         <h6 class="h6 fw-700 dark-text line-height-3 mt-3 text-center">Ralph Waldo</h6>
                                         <p class="p body-text fw-500 line-height-5 pt-10 text-center">
                                             I'm are many variations of passages of Lor available.
@@ -405,12 +388,16 @@
                                         <div class="recent-article-item mb-25">
                                             <div class="row g-2 g-sm-0 g-lg-2 align-items-center">
                                                 <div class="col-3 col-sm-2 col-lg-3">
-                                                    <img class="img-fluid" src="{{ asset('archite/img/recentBlogOne.jpg') }}" alt="blog image">
+                                                    <img class="img-fluid"
+                                                        src="{{ asset('archite/img/recentBlogOne.jpg') }}"
+                                                        alt="blog image">
                                                 </div>
                                                 <div class="col-9 col-sm-10 col-lg-9">
                                                     <h6 class="mb-10">
-                                                        <a class="fs-6 dark-text fw-500 recent-article-title" href="blogDetails">
-                                                            Interior Design Trends for 2023: The Latest and Greatest Ideas
+                                                        <a class="fs-6 dark-text fw-500 recent-article-title"
+                                                            href="blogDetails">
+                                                            Interior Design Trends for 2023: The Latest and Greatest
+                                                            Ideas
                                                         </a>
                                                     </h6>
                                                     <p class="p body-text fw-500 line-height-5">
@@ -422,11 +409,14 @@
                                         <div class="recent-article-item mb-25">
                                             <div class="row g-2 g-sm-0 g-lg-2 align-items-center">
                                                 <div class="col-3 col-sm-2 col-lg-3">
-                                                    <img class="img-fluid" src="{{ asset('archite/img/recentBlogTwo.jpg') }}" alt="blog image">
+                                                    <img class="img-fluid"
+                                                        src="{{ asset('archite/img/recentBlogTwo.jpg') }}"
+                                                        alt="blog image">
                                                 </div>
                                                 <div class="col-9 col-sm-10 col-lg-9">
                                                     <h6 class="mb-10">
-                                                        <a class="fs-6 dark-text fw-500 recent-article-title" href="blogDetails">
+                                                        <a class="fs-6 dark-text fw-500 recent-article-title"
+                                                            href="blogDetails">
                                                             Small Spaces, Big Design: Maximizing Functionality.
                                                         </a>
                                                     </h6>
@@ -439,12 +429,14 @@
                                         <div class="recent-article-item mb-25">
                                             <div class="row g-2 g-sm-0 g-lg-2 align-items-center">
                                                 <div class="col-3 col-sm-2 col-lg-3">
-                                                    <img class="img-fluid" src="{{ asset('archite/img/recentBlogThree.jpg') }}"
+                                                    <img class="img-fluid"
+                                                        src="{{ asset('archite/img/recentBlogThree.jpg') }}"
                                                         alt="blog image">
                                                 </div>
                                                 <div class="col-9 col-sm-10 col-lg-9">
                                                     <h6 class="mb-10">
-                                                        <a class="fs-6 dark-text fw-500 recent-article-title" href="blogDetails">
+                                                        <a class="fs-6 dark-text fw-500 recent-article-title"
+                                                            href="blogDetails">
                                                             From Concept to Reality, The Journey of Success.
                                                         </a>
                                                     </h6>
@@ -457,12 +449,14 @@
                                         <div class="recent-article-item mb-25">
                                             <div class="row g-2 g-sm-0 g-lg-2 align-items-center">
                                                 <div class="col-3 col-sm-2 col-lg-3">
-                                                    <img class="img-fluid" src="{{ asset('archite/img/recentBlogFour.jpg') }}"
+                                                    <img class="img-fluid"
+                                                        src="{{ asset('archite/img/recentBlogFour.jpg') }}"
                                                         alt="blog image">
                                                 </div>
                                                 <div class="col-9 col-sm-10 col-lg-9">
                                                     <h6 class="mb-10">
-                                                        <a class="fs-6 dark-text fw-500 recent-article-title" href="blogDetails">
+                                                        <a class="fs-6 dark-text fw-500 recent-article-title"
+                                                            href="blogDetails">
                                                             Luxury Living: Designing High-End Interiors and Architecture
                                                         </a>
                                                     </h6>
@@ -637,6 +631,28 @@
         </footer>
         <!-- end footer -->
     </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var swiper = new Swiper(".mySwiper", {
+                loop: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                autoplay: {
+                    delay: 3000, // Tự động chuyển ảnh sau 3 giây
+                    disableOnInteraction: false,
+                },
+            });
+        });
+    </script>
 
     <!-- Jquery script -->
     <script src="{{ asset('archite/js/jquery-3.6.4.min.js') }}"></script>
@@ -667,4 +683,5 @@
 
 
 <!-- Mirrored from thememarch.com/demo/html/archite/blog.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:59 GMT -->
+
 </html>
