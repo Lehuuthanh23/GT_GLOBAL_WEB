@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from thememarch.com/demo/html/archite/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:56 GMT -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,74 +61,35 @@
                                 <ul
                                     class="header-menu d-none d-lg-flex flex-row align-items-center z-1 position-relative mr-35 menu">
                                     <li>
-                                        <a class="menu-link text-uppercase fw-500" href="index-2">Home</a>
-                                        <ul class="submenu-container">
-                                            <li><a class="submenu-link text-uppercase fw-500" href="index-2">Home
-                                                    1</a></li>
-                                            <li><a class="submenu-link text-uppercase fw-500" href="index">Home
-                                                    2</a></li>
-                                            <li><a class="submenu-link text-uppercase fw-500" href="index3">Home
-                                                    3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <div class="dropdownlink">
-                                            <span class="text-uppercase">
-                                                <a href="about">About Us</a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="dropdownlink">
-                                            <span class="text-uppercase">
-                                                <a href="services">Services</a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="dropdownlink">
-                                            <span class="text-uppercase">
-                                                <a href="portfolio">Portfolio</a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="dropdownlink">
-                                            <span class="text-uppercase">
-                                                <a href="blog">Blog</a>
-                                            </span>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <a class="menu-link text-uppercase fw-500" href="contact">Contact Us</a>
-                                    </li>
-                                    <li>
-                                        <a class="menu-link text-uppercase fw-500" href="index-2">Pages</a>
-                                        <ul class="submenu-container">
+                                        <a class="menu-link text-uppercase fw-500" href="index">Trang chủ</a>
 
-
-                                            <li>
-                                                <a class="submenu-link text-uppercase fw-500"
-                                                    href="blogDetails">Blog
-                                                    Details</a>
-                                            </li>
-                                            <li>
-                                                <a class="submenu-link text-uppercase fw-500"
-                                                    href="portfolioDetails">Portfolio Details</a>
-                                            </li>
-                                            <li>
-                                                <a class="submenu-link text-uppercase fw-500"
-                                                    href="servicesDetails">Services Details</a>
-                                            </li>
-                                            <li>
-                                                <a class="submenu-link text-uppercase fw-500" href="team">Team</a>
-                                            </li>
-                                            <li>
-                                                <a class="submenu-link text-uppercase fw-500"
-                                                    href="teamDetails">Team
-                                                    Details</a>
-                                            </li>
-                                        </ul>
+                                    </li>
+                                    <li>
+                                        <div class="dropdownlink">
+                                            <span class="text-uppercase">
+                                                <a href="about">Giới thiệu</a>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdownlink">
+                                            <span class="text-uppercase">
+                                                <a href="portfolio">Dự án</a>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="dropdownlink">
+                                            <span class="text-uppercase">
+                                                <a href="blog">Tin tức</a>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="menu-link text-uppercase fw-500" href="contact">Liên hệ</a>
+                                    </li>
+                                    <li>
+                                        <a class="menu-link text-uppercase fw-500" href="recruitment">Tuyển dụng</a>
                                     </li>
                                 </ul>
                                 <div class="desktop-menu-offcanvas position-relative">
@@ -143,81 +105,54 @@
                                                 aria-label="Close"></button>
                                         </div>
                                         <div class="offcanvas-body">
-                                            <ul class="accordion-menu">
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">Home</span>
-                                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                                    </div>
-                                                    <ul class="submenuItems">
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="index-2">Home
-                                                                1</a></li>
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="index2">Home 2</a></li>
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="index3">Home 3</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">
-                                                            <a href="about">About Us</a>
-                                                        </span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">
-                                                            <a href="services">Services</a>
-                                                        </span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">
-                                                            <a href="portfolio">Portfolio</a>
-                                                        </span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">
-                                                            <a href="blog">Blog</a>
-                                                        </span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">Pages</span>
-                                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                                    </div>
-                                                    <ul class="submenuItems">
+                                            <div class="offcanvas-body">
+                                                <ul class="accordion-menu">
+                                                    <li>
+                                                        <div class="dropdownlink">
+                                                            <span class="text-uppercase">
+                                                                <a href="index">Trang chủ</a>
+                                                            </span>
 
+                                                        </div>
 
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="servicesDetails">Services Details</a></li>
-
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="portfolioDetails">Portfolio Details</a></li>
-
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="blogDetails">Blog Details</a></li>
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="team">Taem</a></li>
-                                                        <li><a class="submenu-link text-uppercase fw-500"
-                                                                href="teamDetails">Team Details</a></li>
-
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <div class="dropdownlink">
-                                                        <span class="text-uppercase">
-                                                            <a href="contact">Contact Us</a>
-                                                        </span>
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dropdownlink">
+                                                            <span class="text-uppercase">
+                                                                <a href="about">Giới thiệu</a>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dropdownlink">
+                                                            <span class="text-uppercase">
+                                                                <a href="portfolio">Dự án</a>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dropdownlink">
+                                                            <span class="text-uppercase">
+                                                                <a href="blog">Tin tức</a>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dropdownlink">
+                                                            <span class="text-uppercase">
+                                                                <a href="recruitment">Tuyển dụng</a>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="dropdownlink">
+                                                            <span class="text-uppercase">
+                                                                <a href="contact">Liên hệ</a>
+                                                            </span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -291,11 +226,13 @@
                                 <div class="col-12 col-lg-6">
                                     <div class="position-relative d-flex align-items-center">
                                         <div class="hover-img-container about-one-img">
-                                            <img src="{{ asset('archite/img/aboutOne.jpg') }}" alt="about image" class="rounded-0">
+                                            <img src="{{ asset('archite/img/aboutOne.jpg') }}" alt="about image"
+                                                class="rounded-0">
                                         </div>
                                         <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500"
                                             class="hover-img-container about-one-img-small position-absolute d-none d-lg-inline-block">
-                                            <img src="{{ asset('archite/img/aboutOneSmall.jpg') }}" alt="about image small" class="rounded-0">
+                                            <img src="{{ asset('archite/img/aboutOneSmall.jpg') }}"
+                                                alt="about image small" class="rounded-0">
                                         </div>
                                     </div>
                                 </div>
@@ -412,10 +349,12 @@
                             <div class="col-12 col-lg-5">
                                 <div class="mt-5 mt-lg-0">
                                     <div class="position-relative">
-                                        <img src="{{ asset('archite/img/featuresVideoBg.png') }}" class="img-no-hover-effect features-bg-img"
+                                        <img src="{{ asset('archite/img/featuresVideoBg.png') }}"
+                                            class="img-no-hover-effect features-bg-img"
                                             alt="features video background">
                                         <a href="#" class="js-video-button features-video-animation"
-                                            data-video-id='Us442Oh-znE'><img src="{{ asset('archite/img/playIconWhite.png') }}"
+                                            data-video-id='Us442Oh-znE'><img
+                                                src="{{ asset('archite/img/playIconWhite.png') }}"
                                                 class="img-fluid features-play-icon" alt="features image">
                                         </a>
                                     </div>
@@ -430,7 +369,8 @@
                                         <h5 class="h5 text-white fw-700 line-height-3">
                                             Creativity
                                         </h5>
-                                        <p class="text-white fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5">
+                                        <p
+                                            class="text-white fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5">
                                             Welcome to our interior design agency! Our team of experienced designers.
                                         </p>
                                     </div>
@@ -441,7 +381,8 @@
                                         <h5 class="h5 text-white fw-700 line-height-3">
                                             Management
                                         </h5>
-                                        <p class="text-white fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5">
+                                        <p
+                                            class="text-white fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5">
                                             Welcome to our interior design agency! Our team of experienced designers.
                                         </p>
                                     </div>
@@ -452,7 +393,8 @@
                                         <h5 class="h5 text-white fw-700 line-height-3">
                                             Space Planning
                                         </h5>
-                                        <p class="text-white fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5">
+                                        <p
+                                            class="text-white fw-500 line-height-5 mt-10 position-relative pe-0 pe-lg-5">
                                             Welcome to our interior design agency! Our team of experienced designers.
                                         </p>
                                     </div>
@@ -475,8 +417,8 @@
                                     <div class="item testimonial-one-card">
                                         <div class="row">
                                             <div class="col-12 col-lg-2">
-                                                <img class="testimonial-one-quote-icon" src="{{ asset('archite/img/quoteIcon.png') }}"
-                                                    alt="quote icon">
+                                                <img class="testimonial-one-quote-icon"
+                                                    src="{{ asset('archite/img/quoteIcon.png') }}" alt="quote icon">
                                             </div>
                                             <div class="col-12 col-lg-10">
                                                 <div class="testimonial-item-content">
@@ -501,8 +443,8 @@
                                     <div class="item testimonial-one-card">
                                         <div class="row">
                                             <div class="col-12 col-lg-2">
-                                                <img class="testimonial-one-quote-icon" src="{{ asset('archite/img/quoteIcon.png') }}"
-                                                    alt="quote icon">
+                                                <img class="testimonial-one-quote-icon"
+                                                    src="{{ asset('archite/img/quoteIcon.png') }}" alt="quote icon">
                                             </div>
                                             <div class="col-12 col-lg-10">
                                                 <div class="testimonial-item-content">
@@ -539,7 +481,8 @@
                     <div class="col-12 col-xl-5 d-none d-xl-block">
                         <div class="why-choose-two-left-col mb-5 mb-lg-0">
                             <div class="hover-img-container">
-                                <img src="{{ asset('archite/img/whyChooseTwo.jpg') }}" class="img-fluid" alt="why choose us image">
+                                <img src="{{ asset('archite/img/whyChooseTwo.jpg') }}" class="img-fluid"
+                                    alt="why choose us image">
                             </div>
                         </div>
                     </div>
@@ -622,7 +565,8 @@
                     <div class="owl-carousel owl-theme">
                         <div class="team-one-item position-relative">
                             <div class="team-img">
-                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberOne.jpg') }}" alt="team member">
+                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberOne.jpg') }}"
+                                    alt="team member">
                             </div>
                             <div class="team-one-card-info">
                                 <h6 class="h6 text-white fw-700 line-height-3">
@@ -651,7 +595,8 @@
                         </div>
                         <div class="team-one-item position-relative">
                             <div class="team-img">
-                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberTwo.jpg') }}" alt="team member">
+                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberTwo.jpg') }}"
+                                    alt="team member">
                             </div>
                             <div class="team-one-card-info">
                                 <h6 class="h6 text-white fw-700 line-height-3">
@@ -680,7 +625,8 @@
                         </div>
                         <div class="team-one-item position-relative">
                             <div class="team-img">
-                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberThree.jpg') }}" alt="team member">
+                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberThree.jpg') }}"
+                                    alt="team member">
                             </div>
                             <div class="team-one-card-info">
                                 <h6 class="h6 text-white fw-700 line-height-3">
@@ -709,7 +655,8 @@
                         </div>
                         <div class="team-one-item position-relative">
                             <div class="team-img">
-                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberFour.jpg') }}" alt="team member">
+                                <img class="img-fluid" src="{{ asset('archite/img/teamMemberFour.jpg') }}"
+                                    alt="team member">
                             </div>
                             <div class="team-one-card-info">
                                 <h6 class="h6 text-white fw-700 line-height-3">
@@ -750,7 +697,8 @@
                             <div class="row g-5 justify-content-between">
                                 <div class="col-6 col-lg-2">
                                     <div class="client-hover-img-container">
-                                        <img class="testimonial-one-icon" src="{{ asset('archite/img/testimonialIconOne.jpg') }}"
+                                        <img class="testimonial-one-icon"
+                                            src="{{ asset('archite/img/testimonialIconOne.jpg') }}"
                                             alt="testimonial item logo">
                                     </div>
                                     <h6
@@ -761,7 +709,8 @@
                                 </div>
                                 <div class="col-6 col-lg-2">
                                     <div class="client-hover-img-container">
-                                        <img class="testimonial-one-icon" src="{{ asset('archite/img/testimonialIconTwo.jpg') }}"
+                                        <img class="testimonial-one-icon"
+                                            src="{{ asset('archite/img/testimonialIconTwo.jpg') }}"
                                             alt="testimonial item logo">
                                     </div>
                                     <h6
@@ -772,7 +721,8 @@
                                 </div>
                                 <div class="col-6 col-lg-2">
                                     <div class="client-hover-img-container">
-                                        <img class="testimonial-one-icon" src="{{ asset('archite/img/testimonialIconThree.jpg') }}"
+                                        <img class="testimonial-one-icon"
+                                            src="{{ asset('archite/img/testimonialIconThree.jpg') }}"
                                             alt="testimonial item logo">
                                     </div>
                                     <h6
@@ -783,7 +733,8 @@
                                 </div>
                                 <div class="col-6 col-lg-2">
                                     <div class="client-hover-img-container">
-                                        <img class="testimonial-one-icon" src="{{ asset('archite/img/testimonialIconFour.jpg') }}"
+                                        <img class="testimonial-one-icon"
+                                            src="{{ asset('archite/img/testimonialIconFour.jpg') }}"
                                             alt="testimonial item logo">
                                     </div>
                                     <h6
@@ -794,7 +745,8 @@
                                 </div>
                                 <div class="col-6 col-lg-2">
                                     <div class="client-hover-img-container">
-                                        <img class="testimonial-one-icon" src="{{ asset('archite/img/testimonialIconFive.jpg') }}"
+                                        <img class="testimonial-one-icon"
+                                            src="{{ asset('archite/img/testimonialIconFive.jpg') }}"
                                             alt="testimonial item logo">
                                     </div>
                                     <h6
@@ -838,7 +790,8 @@
                         <div class="row">
                             <div class="col-12 col-sm-5">
                                 <div class="logo mb-1">
-                                    <img src="{{ asset('archite/img/Logo.png') }}" alt="logo">
+                                    <img src="{{ asset('archite/img/Logo.png') }}" style="height: 30%; width: 30%;"
+                                        alt="logo">
                                 </div>
                                 <p class="p text-white fw-500 line-height-5 mt-15">
                                     Welcome to our interior design agency! Our team of experienced designers and
@@ -846,17 +799,17 @@
                                     is passionate about creating beautiful, functional spaces that enhance our clients'
                                     lives. Welcome to our interior design agency!
                                 </p>
-                                <h2 class="fw-700 text-white mt-30 footer-email">info@email.com</h2>
+                                <h2 class="fw-700 text-white mt-30 footer-email">dongtrieuarc@gmail.com</h2>
                             </div>
                             <div class="col-12 col-sm-3">
                                 <div class="mt-5 mt-sm-0">
                                     <ul class="d-flex flex-column gap-4">
                                         <li><a class="fw-500 text-uppercase" href="index-2">home</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="about">about</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="services">services</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="portfolio">portfolio</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="blog">blog</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="contact">contact us</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="about">Giới thiệu</a></li>
+
+                                        <li><a class="fw-500 text-uppercase" href="portfolio">Dự án</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="blog">Tin tức</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="contact">Liên hệ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -864,20 +817,13 @@
                                 <div class="d-flex align-items-start mb-30 mt-5 mt-sm-0">
                                     <i class="fa-solid fa-location-dot brand-text d-inline-block mr-10 mt-2"></i>
                                     <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        901 N Pitt Str., Suite 170
-                                        Alexandria, NY, USA
+                                        159 Đường CN11, Sơn Kỳ, Tân Phú, Hồ Chí Minh, Việt Nam
                                     </h6>
                                 </div>
                                 <div class="d-flex align-items-start mb-30">
                                     <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
                                     <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        (406) 555-0120
-                                    </h6>
-                                </div>
-                                <div class="d-flex align-items-start mb-30">
-                                    <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
-                                    <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        (406) 327-1246
+                                        0907 859 668
                                     </h6>
                                 </div>
                             </div>
@@ -896,7 +842,7 @@
                                         class="z-1 position-relative">Dribble</span></a>
                             </div>
                             <p class="p fw-500 line-height-3 footer-copyright-text pt-4 pt-xl-0">
-                                Copyright 2023, All Right reserved
+                                Copyright 2025, All Right reserved
                             </p>
                         </div>
                     </div>
@@ -935,4 +881,5 @@
 
 
 <!-- Mirrored from thememarch.com/demo/html/archite/about by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 07:28:56 GMT -->
+
 </html>

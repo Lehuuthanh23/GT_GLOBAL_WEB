@@ -62,56 +62,23 @@
                         <ul
                             class="header-menu d-none d-lg-flex flex-row align-items-center z-1 position-relative mr-35 menu">
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="index-2">Home</a>
-                                <ul class="submenu-container">
-                                    <li><a class="submenu-link text-uppercase fw-500" href="index-2">Home
-                                            1</a></li>
-                                    <li><a class="submenu-link text-uppercase fw-500" href="index2">Home
-                                            2</a></li>
-                                    <li><a class="submenu-link text-uppercase fw-500" href="index3">Home
-                                            3</a></li>
-                                </ul>
+                                <a class="menu-link text-uppercase fw-500" href="index">Trang chủ</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="about">About Us</a>
+                                <a class="menu-link text-uppercase fw-500" href="about">Giới thiệu</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="services">Services</a>
+                                <a class="menu-link text-uppercase fw-500" href="portfolio">Dự án</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="portfolio">Portfolio</a>
+                                <a class="menu-link text-uppercase fw-500" href="blog">Tin tức</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="blog">Blog</a>
+                                <a class="menu-link text-uppercase fw-500" href="contact">Liên hệ</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="contact">Contact Us</a>
-                            </li>
-                            <li>
-                                <a class="menu-link text-uppercase fw-500" href="index-2">Pages</a>
-                                <ul class="submenu-container">
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="blogDetails">Blog
-                                            Details</a>
-                                    </li>
+                                <a class="menu-link text-uppercase fw-500" href="recruitment">Tuyển dụng</a>
 
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="portfolioDetails">Portfolio
-                                            Details</a>
-                                    </li>
-
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="servicesDetails">Services
-                                            Details</a>
-                                    </li>
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="team">Team</a>
-                                    </li>
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="teamDetails">Team
-                                            Details</a>
-                                    </li>
-                                </ul>
                             </li>
                         </ul>
                         <div class="desktop-menu-offcanvas position-relative">
@@ -127,80 +94,54 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    <ul class="accordion-menu">
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">Home</span>
-                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                            </div>
-                                            <ul class="submenuItems">
-                                                <li><a class="submenu-link text-uppercase fw-500" href="index-2">Home
-                                                        1</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500" href="index2">Home
-                                                        2</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500" href="index3">Home
-                                                        3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="about">About Us</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="services">Services</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="portfolio">Portfolio</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="blog">Blog</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">Pages</span>
-                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                            </div>
-                                            <ul class="submenuItems">
+                                    <div class="offcanvas-body">
+                                        <ul class="accordion-menu">
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="index">Trang chủ</a>
+                                                    </span>
 
+                                                </div>
 
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="servicesDetails">Services Details</a></li>
-
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="portfolioDetails">Portfolio Details</a></li>
-
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="blogDetails">Blog Details</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="team">Taem</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="teamDetails">Team Details</a></li>
-
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="contact">Contact Us</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="about">Giới thiệu</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="portfolio">Dự án</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="blog">Tin tức</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="recruitment">Tuyển dụng</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="contact">Liên hệ</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -231,104 +172,107 @@
                             <div class="row">
                                 <div class="col-12 col-lg-8 pr-80 blog-archieve-body">
                                     @foreach ($articles as $item)
-                                        <div class="blogs-archieve-card mb-70">
-                                            <style>
-                                                /* Thay đổi màu nền và icon của nút prev/next */
-                                                .swiper-button-next,
-                                                .swiper-button-prev {
-                                                    color: white;
-                                                    /* Màu biểu tượng mũi tên */
-                                                    background-color: rgba(0, 0, 0, 0.5);
-                                                    /* Màu nền trong suốt */
-                                                    padding: 15px;
-                                                    border-radius: 50%;
-                                                    /* Làm nút tròn */
-                                                    width: 30px;
-                                                    height: 30px;
-                                                }
+                                        @if ($item->enabled == 1)
+                                            <div class="blogs-archieve-card mb-70">
+                                                <style>
+                                                    /* Thay đổi màu nền và icon của nút prev/next */
+                                                    .swiper-button-next,
+                                                    .swiper-button-prev {
+                                                        color: white;
+                                                        /* Màu biểu tượng mũi tên */
+                                                        background-color: rgba(0, 0, 0, 0.5);
+                                                        /* Màu nền trong suốt */
+                                                        padding: 15px;
+                                                        border-radius: 50%;
+                                                        /* Làm nút tròn */
+                                                        width: 30px;
+                                                        height: 30px;
+                                                    }
 
-                                                /* Nếu muốn thay đổi icon thành mũi tên tùy chỉnh */
-                                                .swiper-button-next::after,
-                                                .swiper-button-prev::after {
-                                                    font-size: 20px;
-                                                    /* Tăng kích thước icon */
-                                                    font-weight: bold;
-                                                }
+                                                    /* Nếu muốn thay đổi icon thành mũi tên tùy chỉnh */
+                                                    .swiper-button-next::after,
+                                                    .swiper-button-prev::after {
+                                                        font-size: 20px;
+                                                        /* Tăng kích thước icon */
+                                                        font-weight: bold;
+                                                    }
 
-                                                /* Đổi màu các chấm tròn */
-                                                .swiper-pagination-bullet {
-                                                    background-color: white;
-                                                    /* Màu chấm tròn mặc định */
-                                                    width: 6px;
-                                                    /* Tăng kích thước */
-                                                    height: 6px;
-                                                    opacity: 0.5;
-                                                    /* Làm mờ chấm không active */
-                                                    transition: background-color 0.3s, opacity 0.3s;
-                                                    /* Hiệu ứng mượt */
-                                                }
+                                                    /* Đổi màu các chấm tròn */
+                                                    .swiper-pagination-bullet {
+                                                        background-color: white;
+                                                        /* Màu chấm tròn mặc định */
+                                                        width: 6px;
+                                                        /* Tăng kích thước */
+                                                        height: 6px;
+                                                        opacity: 0.5;
+                                                        /* Làm mờ chấm không active */
+                                                        transition: background-color 0.3s, opacity 0.3s;
+                                                        /* Hiệu ứng mượt */
+                                                    }
 
-                                                /* Chấm tròn đang active (trang hiện tại) */
-                                                .swiper-pagination-bullet-active {
-                                                    background-color: rgb(246, 138, 10,1) !important;
-                                                    /* Đổi màu cho chấm tròn active */
-                                                    opacity: 1;
-                                                    /* Làm sáng chấm active */
-                                                    transform: scale(1.2);
-                                                    /* Phóng to chấm active */
-                                                }
+                                                    /* Chấm tròn đang active (trang hiện tại) */
+                                                    .swiper-pagination-bullet-active {
+                                                        background-color: rgb(246, 138, 10, 1) !important;
+                                                        /* Đổi màu cho chấm tròn active */
+                                                        opacity: 1;
+                                                        /* Làm sáng chấm active */
+                                                        transform: scale(1.2);
+                                                        /* Phóng to chấm active */
+                                                    }
 
-                                                /* Thay đổi vị trí các chấm tròn (mặc định ở giữa dưới slider) */
-                                                .swiper-pagination {
-                                                    bottom: 10px !important;
-                                                    /* Điều chỉnh khoảng cách so với slider */
-                                                }
-                                            </style>
-                                            <div class="swiper mySwiper">
-                                                <div class="swiper-wrapper">
-                                                    @foreach (json_decode($item->image_url, true) as $image)
-                                                        <div class="swiper-slide">
-                                                            <div class="hover-img-container">
-                                                                <img src="{{ $image }}"
-                                                                    class="img-fluid img-no-hover-effect"
-                                                                    alt="blog image">
+                                                    /* Thay đổi vị trí các chấm tròn (mặc định ở giữa dưới slider) */
+                                                    .swiper-pagination {
+                                                        bottom: 10px !important;
+                                                        /* Điều chỉnh khoảng cách so với slider */
+                                                    }
+                                                </style>
+                                                <div class="swiper mySwiper">
+                                                    <div class="swiper-wrapper">
+                                                        @foreach (json_decode($item->image_url, true) as $image)
+                                                            <div class="swiper-slide">
+                                                                <div class="hover-img-container">
+                                                                    <img src="{{ $image }}"
+                                                                        class="img-fluid img-no-hover-effect"
+                                                                        alt="blog image">
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                    @endforeach
+                                                        @endforeach
+                                                    </div>
+
+                                                    <div class="swiper-button-next"></div>
+                                                    <div class="swiper-button-prev"></div>
+
+                                                    <div class="swiper-pagination"></div>
                                                 </div>
 
-                                                <div class="swiper-button-next"></div>
-                                                <div class="swiper-button-prev"></div>
-
-                                                <div class="swiper-pagination"></div>
-                                            </div>
-
-                                            <p class="p body-text fw-500 line-height-5 pt-35">
-                                                {{ $item->published_at }}
-                                            </p>
-                                            <h5 class="mt-10">
-                                                <a class="blog-archieve-card-title dark-text fw-700 line-height-3"
+                                                <p class="p body-text fw-500 line-height-5 pt-35">
+                                                    {{ $item->published_at }}
+                                                </p>
+                                                <h5 class="mt-10">
+                                                    <a class="blog-archieve-card-title dark-text fw-700 line-height-3">
+                                                        {{-- href="blogDetails"> --}}
+                                                        {{ $item->title }}
+                                                    </a>
+                                                </h5>
+                                                {!! $item->description !!}
+                                                <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
                                                     href="blogDetails">
-                                                    {{ $item->title }}
+                                                    <span class="mr-10">read more</span>
+                                                    <span><i class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
-                                            </h5>
-                                            {!! $item->perex !!}
-                                            <a class="fs-6 dark-text fw-500 line-height-3 text-uppercase mt-25 d-flex align-items-center"
-                                                href="blogDetails">
-                                                <span class="mr-10">read more</span>
-                                                <span><i class="fa-solid fa-arrow-right"></i></span>
-                                            </a>
-                                        </div>
+                                            </div>
+                                            <div class="portfolio-cta-btn text-start">
+                                                <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500"
+                                                    data-aos-offset="100" href="portfolio"
+                                                    class="btn brand-btn text-uppercase">
+                                                    <span class="z-1 position-relative">View
+                                                        Projects</span>
+                                                </a>
+                                            </div>
+                                        @endif
                                     @endforeach
 
-                                    <div class="portfolio-cta-btn text-start">
-                                        <a data-aos="fade-up" data-aos-delay="500" data-aos-duration="1500"
-                                            data-aos-offset="100" href="portfolio.html"
-                                            class="btn brand-btn text-uppercase">
-                                            <span class="z-1 position-relative">View
-                                                Projects</span>
-                                        </a>
-                                    </div>
+
                                 </div>
                                 <div class="col-12 col-lg-4 pl-20 mt-5 mt-lg-0 blog-sidebar">
                                     <div class="input-group mb-30">
@@ -564,67 +508,66 @@
         <!-- start footer -->
         <footer class="footer-one">
             <div class="container">
-                <div class="footer-one-wrapper">
-                    <div class="row">
-                        <div class="col-12 col-sm-5">
-                            <div class="logo mb-1">
-                                <img src="{{ asset('archite/img/Logo.png') }}" alt="logo">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-5">
+                                <div class="logo mb-1">
+                                    <img src="{{ asset('archite/img/Logo.png') }}" style="height: 30%; width: 30%;"
+                                        alt="logo">
+                                </div>
+                                <p class="p text-white fw-500 line-height-5 mt-15">
+                                    Welcome to our interior design agency! Our team of experienced designers and
+                                    decorators
+                                    is passionate about creating beautiful, functional spaces that enhance our clients'
+                                    lives. Welcome to our interior design agency!
+                                </p>
+                                <h2 class="fw-700 text-white mt-30 footer-email">dongtrieuarc@gmail.com</h2>
                             </div>
-                            <p class="p text-white fw-500 line-height-5 mt-15">
-                                Welcome to our interior design agency! Our team of experienced designers and decorators
-                                is passionate about creating beautiful, functional spaces that enhance our clients'
-                                lives. Welcome to our interior design agency!
+                            <div class="col-12 col-sm-3">
+                                <div class="mt-5 mt-sm-0">
+                                    <ul class="d-flex flex-column gap-4">
+                                        <li><a class="fw-500 text-uppercase" href="index-2">Trang chủ</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="about">Giới thiệu</a></li>
+
+                                        <li><a class="fw-500 text-uppercase" href="portfolio">Dự án</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="blog">Tin tức</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="contact">Liên hệ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-4">
+                                <div class="d-flex align-items-start mb-30 mt-5 mt-sm-0">
+                                    <i class="fa-solid fa-location-dot brand-text d-inline-block mr-10 mt-2"></i>
+                                    <h6 class="h6 fw-400 line-height-4 footer-address">
+                                        159 Đường CN11, Sơn Kỳ, Tân Phú, Hồ Chí Minh, Việt Nam
+                                    </h6>
+                                </div>
+                                <div class="d-flex align-items-start mb-30">
+                                    <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
+                                    <h6 class="h6 fw-400 line-height-4 footer-address">
+                                        0907 859 668
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-100 d-flex justify-content-between align-items-center flex-column flex-xl-row">
+                            <div class="footer-one-social-container">
+                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://facebook.com/"><span
+                                        class="z-1 position-relative">Facebook</span></a>
+                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://linkedin.com/"><span
+                                        class="z-1 position-relative">LinkedIn</span></a>
+                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://instagram.com/"><span
+                                        class="z-1 position-relative">Instagram</span></a>
+                                <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://twitter.com/"><span
+                                        class="z-1 position-relative">Twitter</span></a>
+                                <a class="btn dark-btn mb-4 mb-lg-0" href="https://dribble.com/"><span
+                                        class="z-1 position-relative">Dribble</span></a>
+                            </div>
+                            <p class="p fw-500 line-height-3 footer-copyright-text pt-4 pt-xl-0">
+                                Copyright 2025, All Right reserved
                             </p>
-                            <h2 class="fw-700 text-white mt-30 footer-email">info@email.com</h2>
                         </div>
-                        <div class="col-12 col-sm-3 mt-5 mt-sm-0">
-                            <ul class="d-flex flex-column gap-4">
-                                <li><a class="fw-500 text-uppercase" href="index-2">home</a></li>
-                                <li><a class="fw-500 text-uppercase" href="about">about</a></li>
-                                <li><a class="fw-500 text-uppercase" href="services">services</a></li>
-                                <li><a class="fw-500 text-uppercase" href="portfolio">portfolio</a></li>
-                                <li><a class="fw-500 text-uppercase" href="blog">blog</a></li>
-                                <li><a class="fw-500 text-uppercase" href="contact">contact us</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-12 col-sm-4 mt-5 mt-sm-0">
-                            <div class="d-flex align-items-start mb-30">
-                                <i class="fa-solid fa-location-dot brand-text d-inline-block mr-10 mt-2"></i>
-                                <h6 class="h6 fw-400 line-height-4 footer-address">
-                                    901 N Pitt Str., Suite 170
-                                    Alexandria, NY, USA
-                                </h6>
-                            </div>
-                            <div class="d-flex align-items-start mb-30">
-                                <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
-                                <h6 class="h6 fw-400 line-height-4 footer-address">
-                                    (406) 555-0120
-                                </h6>
-                            </div>
-                            <div class="d-flex align-items-start mb-30">
-                                <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
-                                <h6 class="h6 fw-400 line-height-4 footer-address">
-                                    (406) 327-1246
-                                </h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-100 d-flex justify-content-between align-items-center flex-column flex-xl-row">
-                        <div class="footer-one-social-container">
-                            <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://facebook.com/"><span
-                                    class="z-1 position-relative">Facebook</span></a>
-                            <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://linkedin.com/"><span
-                                    class="z-1 position-relative">LinkedIn</span></a>
-                            <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://instagram.com/"><span
-                                    class="z-1 position-relative">Instagram</span></a>
-                            <a class="btn dark-btn mr-30 mb-4 mb-lg-0" href="https://twitter.com/"><span
-                                    class="z-1 position-relative">Twitter</span></a>
-                            <a class="btn dark-btn mb-4 mb-lg-0" href="https://dribble.com/"><span
-                                    class="z-1 position-relative">Dribble</span></a>
-                        </div>
-                        <p class="p fw-500 line-height-3 footer-copyright-text pt-4 pt-xl-0">
-                            Copyright 2023, All Right reserved
-                        </p>
                     </div>
                 </div>
             </div>

@@ -436,38 +436,6 @@
     <link rel="stylesheet" href="{{ asset('archite/css/responsive.css') }}">
 </head>
 <style>
-    .full-screen-bg {
-        position: fixed;
-        /* hoặc absolute */
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        /* Sử dụng 100vw thay vì 100% */
-        background-image: url('https://gtglobal.com.vn/wp-content/uploads/2023/02/thiet-ke-can-ho-chung-cu-Khang-Dien-h1.jpg');
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .full-screen-bg-tech {
-        position: fixed;
-        /* hoặc absolute */
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        /* Sử dụng 100vw thay vì 100% */
-        background-image: url('https://media.istockphoto.com/id/1212064060/vi/anh/l%C6%B0%E1%BB%9Bi-lu%E1%BB%93ng-d%E1%BB%AF-li%E1%BB%87u-abs-hologram.jpg?s=612x612&w=0&k=20&c=2IRs6J1TRCQUMzxuPfRK-lyuFKwSKswC8F-Bid526iw=');
-        background-size: cover;
-        background-position: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-
     .content-overlay {
         text-align: center;
         color: white;
@@ -518,7 +486,7 @@
                     <p>Thông tin chi tiết về các sản phẩm công nghệ</p>
                 </div>
                 <div id="content">
-                    <div class="">
+                    <div>
                         <div class="content-overlay">
                             <h1>Chi tiết công nghệ</h1>
                             <p>Đây là phần nội dung chi tiết khi hover vào panel thiết kế Công nghệ.</p>
@@ -535,7 +503,7 @@
                     <p>Thông tin chi tiết về thiết kế xây dựng</p>
                 </div>
                 <div id="content">
-                    <div class="">
+                    <div>
                         <div class="content-overlay">
                             <h1>Chi Tiết Xây dựng</h1>
                             <p>Đây là phần nội dung chi tiết khi hover vào panel thiết kế xây dựng.</p>

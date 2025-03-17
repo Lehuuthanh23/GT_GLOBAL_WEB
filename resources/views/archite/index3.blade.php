@@ -158,8 +158,8 @@
                     <!-- floating contact bar -->
                     <div class="floating-contact-box position-absolute">
                         <ul class="d-flex">
-                            <li class="contact-info-one-dark dark-text">(406) 555-0120</li>
-                            <li class="contact-info-two dark-text">hello@archito.com</li>
+                            <li class="contact-info-one-dark dark-text">0907 859 668</li>
+                            <li class="contact-info-two dark-text">dongtrieuarc@gmail.com</li>
                         </ul>
                     </div>
                     <!-- floating social media bar -->
@@ -1162,7 +1162,8 @@
                         <div class="row">
                             <div class="col-12 col-sm-5">
                                 <div class="logo mb-1">
-                                    <img src="{{ asset('archite/img/Logo.png') }}" alt="logo">
+                                    <img src="{{ asset('archite/img/Logo.png') }}" style="height: 30%; width: 30%;"
+                                        alt="logo">
                                 </div>
                                 <p class="p text-white fw-500 line-height-5 mt-15">
                                     Welcome to our interior design agency! Our team of experienced designers and
@@ -1170,17 +1171,17 @@
                                     is passionate about creating beautiful, functional spaces that enhance our clients'
                                     lives. Welcome to our interior design agency!
                                 </p>
-                                <h2 class="fw-700 text-white mt-30 footer-email">info@email.com</h2>
+                                <h2 class="fw-700 text-white mt-30 footer-email">dongtrieuarc@gmail.com</h2>
                             </div>
                             <div class="col-12 col-sm-3">
                                 <div class="mt-5 mt-sm-0">
                                     <ul class="d-flex flex-column gap-4">
                                         <li><a class="fw-500 text-uppercase" href="index-2">home</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="about">about</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="services">services</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="portfolio">portfolio</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="blog">blog</a></li>
-                                        <li><a class="fw-500 text-uppercase" href="contact">contact us</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="about">Giới thiệu</a></li>
+
+                                        <li><a class="fw-500 text-uppercase" href="portfolio">Dự án</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="blog">Tin tức</a></li>
+                                        <li><a class="fw-500 text-uppercase" href="contact">Liên hệ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -1188,22 +1189,16 @@
                                 <div class="d-flex align-items-start mb-30 mt-5 mt-sm-0">
                                     <i class="fa-solid fa-location-dot brand-text d-inline-block mr-10 mt-2"></i>
                                     <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        901 N Pitt Str., Suite 170
-                                        Alexandria, NY, USA
+                                        159 Đường CN11, Sơn Kỳ, Tân Phú, Hồ Chí Minh, Việt Nam
                                     </h6>
                                 </div>
                                 <div class="d-flex align-items-start mb-30">
                                     <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
                                     <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        (406) 555-0120
+                                        0907 859 668
                                     </h6>
                                 </div>
-                                <div class="d-flex align-items-start mb-30">
-                                    <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
-                                    <h6 class="h6 fw-400 line-height-4 footer-address">
-                                        (406) 327-1246
-                                    </h6>
-                                </div>
+
                             </div>
                         </div>
                         <div class="mt-100 d-flex justify-content-between align-items-center flex-column flex-xl-row">
@@ -1220,7 +1215,7 @@
                                         class="z-1 position-relative">Dribble</span></a>
                             </div>
                             <p class="p fw-500 line-height-3 footer-copyright-text pt-4 pt-xl-0">
-                                Copyright 2023, All Right reserved
+                                Copyright 2025, All Right reserved
                             </p>
                         </div>
                     </div>

@@ -59,56 +59,23 @@
                         <ul
                             class="header-menu d-none d-lg-flex flex-row align-items-center z-1 position-relative mr-35 menu">
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="index-2">Home</a>
-                                <ul class="submenu-container">
-                                    <li><a class="submenu-link text-uppercase fw-500" href="index-2">Home
-                                            1</a></li>
-                                    <li><a class="submenu-link text-uppercase fw-500" href="index2">Home
-                                            2</a></li>
-                                    <li><a class="submenu-link text-uppercase fw-500" href="index3">Home
-                                            3</a></li>
-                                </ul>
+                                <a class="menu-link text-uppercase fw-500" href="index">Trang chủ</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="about">About Us</a>
+                                <a class="menu-link text-uppercase fw-500" href="about">Giới thiệu</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="services">Services</a>
+                                <a class="menu-link text-uppercase fw-500" href="portfolio">Dự án</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="portfolio">Portfolio</a>
+                                <a class="menu-link text-uppercase fw-500" href="blog">Tin tức</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="blog">Blog</a>
+                                <a class="menu-link text-uppercase fw-500" href="contact">Liên hệ</a>
                             </li>
                             <li>
-                                <a class="menu-link text-uppercase fw-500" href="contact">Contact Us</a>
-                            </li>
-                            <li>
-                                <a class="menu-link text-uppercase fw-500" href="index-2">Pages</a>
-                                <ul class="submenu-container">
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="blogDetails">Blog
-                                            Details</a>
-                                    </li>
+                                <a class="menu-link text-uppercase fw-500" href="recruitment">Tuyển dụng</a>
 
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="portfolioDetails">Portfolio
-                                            Details</a>
-                                    </li>
-
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="servicesDetails">Services
-                                            Details</a>
-                                    </li>
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="team">Team</a>
-                                    </li>
-                                    <li>
-                                        <a class="submenu-link text-uppercase fw-500" href="teamDetails">Team
-                                            Details</a>
-                                    </li>
-                                </ul>
                             </li>
                         </ul>
                         <div class="desktop-menu-offcanvas position-relative">
@@ -124,80 +91,54 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="offcanvas-body">
-                                    <ul class="accordion-menu">
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">Home</span>
-                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                            </div>
-                                            <ul class="submenuItems">
-                                                <li><a class="submenu-link text-uppercase fw-500" href="index-2">Home
-                                                        1</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500" href="index2">Home
-                                                        2</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500" href="index3">Home
-                                                        3</a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="about">About Us</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="services">Services</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="portfolio">Portfolio</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="blog">Blog</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">Pages</span>
-                                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                            </div>
-                                            <ul class="submenuItems">
+                                    <div class="offcanvas-body">
+                                        <ul class="accordion-menu">
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="index">Trang chủ</a>
+                                                    </span>
 
+                                                </div>
 
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="servicesDetails">Services Details</a></li>
-
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="portfolioDetails">Portfolio Details</a></li>
-
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="blogDetails">Blog Details</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="team">Taem</a></li>
-                                                <li><a class="submenu-link text-uppercase fw-500"
-                                                        href="teamDetails">Team Details</a></li>
-
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <div class="dropdownlink">
-                                                <span class="text-uppercase">
-                                                    <a href="contact">Contact Us</a>
-                                                </span>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="about">Giới thiệu</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="portfolio">Dự án</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="blog">Tin tức</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="recruitment">Tuyển dụng</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="dropdownlink">
+                                                    <span class="text-uppercase">
+                                                        <a href="contact">Liên hệ</a>
+                                                    </span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -233,8 +174,7 @@
                                         </div>
                                         <h4 class="dark-text fw-700 line-height-3 ">Address</h4>
                                         <p class="p body-text fw-500 line-height-5">
-                                            901 N Pitt Str., Suite 170
-                                            Alexandria, NY, USA
+                                            159 Đường CN11, Sơn Kỳ, Tân Phú, Hồ Chí Minh, Việt Nam
                                         </p>
                                     </div>
                                 </div>
@@ -246,8 +186,7 @@
                                         </div>
                                         <h4 class="dark-text fw-700 line-height-3 ">Phone</h4>
                                         <p class="p body-text fw-500 line-height-5">
-                                            <a class="body-text" href="tel:(406) 555-0120">(406) 555-0120</a><br>
-                                            <a class="body-text" href="tel:(406) 555-0120">(406) 555-0120</a>
+                                            <a class="body-text" href="tel:0907 859 668">0907 859 668</a><br>
                                         </p>
                                     </div>
                                 </div>
@@ -259,8 +198,8 @@
                                         </div>
                                         <h4 class="dark-text fw-700 line-height-3 ">Email</h4>
                                         <p class="p body-text fw-500 line-height-5">
-                                            <a class="body-text" href="mailto:archite@email.com">archite@email.com</a>
-                                            <a class="body-text" href="mailto:hello@archite.com">hello@archite.com</a>
+                                            <a class="body-text"
+                                                href="mailto:dongtrieuarc@gmail.com">dongtrieuarc@gmail.com</a>
                                         </p>
                                     </div>
                                 </div>
@@ -275,6 +214,9 @@
                                         </div>
                                         <div class="col">
                                             <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                        <div class="col">
+                                            <input type="phone" class="form-control" placeholder="Phone">
                                         </div>
                                     </div>
                                     <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Messages" rows="3"></textarea>
@@ -298,10 +240,9 @@
         <!-- start map -->
         <div class="contact-location-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.0622843894!2d-74.30932844391303!3d40.69701928424492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1683321107064!5m2!1sen!2sbd"
-                width="100" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4863.05687444326!2d106.60765667586887!3d10.80964975857836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752bec147a8955%3A0x9b98528e913f8ba3!2zMTU5IMSQxrDhu51uZyBDTjExLCBTxqFuIEvhu7MsIFTDom4gUGjDuiwgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e1!3m2!1svi!2s!4v1741855185003!5m2!1svi!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <!-- end map -->
         <!-- start footer -->
@@ -311,23 +252,24 @@
                     <div class="row">
                         <div class="col-12 col-sm-5">
                             <div class="logo mb-1">
-                                <img src="{{ asset('archite/img/Logo.png') }}" alt="logo">
+                                <img src="{{ asset('archite/img/Logo.png') }}" style="height: 30%; width: 30%;"
+                                    alt="logo">
                             </div>
                             <p class="p text-white fw-500 line-height-5 mt-15">
                                 Welcome to our interior design agency! Our team of experienced designers and decorators
                                 is passionate about creating beautiful, functional spaces that enhance our clients'
                                 lives. Welcome to our interior design agency!
                             </p>
-                            <h2 class="fw-700 text-white mt-30 footer-email">info@email.com</h2>
+                            <h2 class="fw-700 text-white mt-30 footer-email">dongtrieuarc@gmail.com</h2>
                         </div>
                         <div class="col-12 col-sm-3 mt-5 mt-sm-0">
                             <ul class="d-flex flex-column gap-4">
-                                <li><a class="fw-500 text-uppercase" href="index-2">home</a></li>
-                                <li><a class="fw-500 text-uppercase" href="about">about</a></li>
-                                <li><a class="fw-500 text-uppercase" href="services">services</a></li>
-                                <li><a class="fw-500 text-uppercase" href="portfolio">portfolio</a></li>
-                                <li><a class="fw-500 text-uppercase" href="blog">blog</a></li>
-                                <li><a class="fw-500 text-uppercase" href="contact">contact us</a></li>
+                                <li><a class="fw-500 text-uppercase" href="index-2">Trang chủ</a></li>
+                                <li><a class="fw-500 text-uppercase" href="about">Giới thiệu</a></li>
+
+                                <li><a class="fw-500 text-uppercase" href="portfolio">Dự án</a></li>
+                                <li><a class="fw-500 text-uppercase" href="blog">Tin tức</a></li>
+                                <li><a class="fw-500 text-uppercase" href="contact">Liên hệ</a></li>
                             </ul>
                         </div>
                         <div class="col-12 col-sm-4 mt-5 mt-sm-0">
@@ -341,7 +283,7 @@
                             <div class="d-flex align-items-start mb-30">
                                 <i class="fa-solid fa-phone-volume brand-text d-inline-block mr-10 mt-2"></i>
                                 <h6 class="h6 fw-400 line-height-4 footer-address">
-                                    (406) 555-0120
+                                    0907 859 668
                                 </h6>
                             </div>
                             <div class="d-flex align-items-start mb-30">
@@ -366,7 +308,7 @@
                                     class="z-1 position-relative">Dribble</span></a>
                         </div>
                         <p class="p fw-500 line-height-3 footer-copyright-text pt-4 pt-xl-0">
-                            Copyright 2023, All Right reserved
+                            Copyright 2025, All Right reserved
                         </p>
                     </div>
                 </div>
